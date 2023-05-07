@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+div{
+	background-color:lightblue;
+	border: solid 2px black;
+	color: #892B92;
+	width:300px;
+	height:300px;
+	position:relative;
+	top: 135px;
+	left: 300px;
+}
+p{
+	position:absolute;
+	top: 135px; 
+	left: 100px;  
+	font-size: 20px;
+	font-weight: 600;
+}
